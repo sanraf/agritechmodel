@@ -76,7 +76,7 @@ function App() {
     reader.onload = async () => {
       const base64Image = reader.result.split(',')[1];
 
-      const apiKey = 'MSVHTmY9M9qpbRdIMxvfHozJS3AKYZKQic3jKXSnKpHVByd8sq';
+      const apiKey = 'API_KEY';
       const url = 'https://api.plant.id/v2/identify';
 
       
